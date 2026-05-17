@@ -1,9 +1,13 @@
 # Equipredict-B-1.0
 # Docker Usage
 
-This image runs the Baijiu equilibrium calculation once, then writes the Excel result to `/app/output` inside the container.
+The Docker image archive can be downloaded from Baidu Netdisk:
 
-To see the output on your computer, mount a host folder to `/app/output`.
+Link: https://pan.baidu.com/s/1cJZtEH-6RZUBx2WNiOJyqg?pwd=htj4
+File name: equipredict-b:1.0.tar.gz
+Docker image tag after loading: equipredict-b:1.0
+
+The SHA256 checksum of the Docker image archive is provided in checksums.txt.
 
 ## Load The Offline Image
 
@@ -37,7 +41,7 @@ Put your files in one folder, for example:
 
 ```text
 D:\mydata\model.xlsx
-D:\mydata\conceration.xlsx
+D:\mydata\concentration.xlsx
 ```
 
 Then run:
@@ -47,7 +51,7 @@ docker run --rm `
   -v "D:\mydata:/data" `
   -v "${PWD}:/app/output" `
   -e MODEL_PATH="/data/model.xlsx" `
-  -e CONC_PATH="/data/conceration.xlsx" `
+  -e CONC_PATH="/data/concentration.xlsx" `
   equipredict-b:1.0
 ```
 
