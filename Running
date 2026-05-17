@@ -1,0 +1,22 @@
+# Running instructions for Equipredict-B
+
+This document describes how to run the Equipredict-B Docker image for equilibrium calculation.
+
+## 1. Requirements
+
+Please install Docker before running the calculation.
+
+- Windows: Docker Desktop
+- macOS: Docker Desktop
+- Linux: Docker Engine
+
+No Python installation is required.
+
+## 2. Download the Docker image archive
+
+Download the Docker image archive from the Baidu Netdisk link provided in `README.md`.
+
+Expected file name:
+
+```text
+equipredict-b_1.0.tar
