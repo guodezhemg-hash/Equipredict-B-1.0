@@ -4,7 +4,9 @@
 The Docker image archive can be downloaded from Baidu Netdisk:
 
 Link: https://pan.baidu.com/s/1cJZtEH-6RZUBx2WNiOJyqg?pwd=htj4
+
 File name: equipredict-b:1.0.tar.gz
+
 Docker image tag after loading: equipredict-b:1.0
 
 The SHA256 checksum of the Docker image archive is provided in checksums.txt.
